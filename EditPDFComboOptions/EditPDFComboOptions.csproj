@@ -98,7 +98,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1\PDFEditUtil.csproj">
+    <ProjectReference Include="..\PDFEditUtil\PDFEditUtil.csproj">
       <Project>{35bf1dc1-f5b3-4fbc-a783-474699464152}</Project>
       <Name>PDFEditUtil</Name>
     </ProjectReference>
