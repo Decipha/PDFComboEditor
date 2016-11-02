@@ -142,7 +142,7 @@ namespace PDFEditUtil
                             combo.AddOption(option.Value, option.Name);
                         }
                         if (string.IsNullOrEmpty(outputFileName))
-                            pdf.Save();
+                            pdf.Save(fileName);
                         else
                             pdf.Save(outputFileName);
                     }
@@ -174,7 +174,7 @@ namespace PDFEditUtil
                             combo.AddOption(option.Value, option.Name);
                         }
                         if (string.IsNullOrEmpty(outputFileName))
-                            pdf.Save();
+                            pdf.Save(fileName);
                         else
                             pdf.Save(outputFileName);
                     }

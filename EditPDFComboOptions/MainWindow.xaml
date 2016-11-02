@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EditPDFComboOptions"
         mc:Ignorable="d"
-        Title="{Binding WindowTitle}" Height="350" Width="544.28">
+        Title="{Binding WindowTitle}" Height="350" Width="544.28" Icon="Editdatasetwithdesigner_8449.ico">
     <Window.DataContext>
         <local:EditComboBoxItemsViewModel/>
     </Window.DataContext>
